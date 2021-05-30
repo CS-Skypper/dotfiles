@@ -30,10 +30,8 @@ Install the following packages:
 - `git`
 - `xorg-server`
 - `xorg-xinit`
-- `bspwm`
-- `sxhkd`
-- [`polybar`](https://aur.archlinux.org/packages/polybar/)
 - [`dmenu`](https://github.com/khuedoan/dmenu)
+- [`dwm`](https://github.com/khuedoan/dwm)
 - [`st`](https://github.com/khuedoan/st)
 - [`slock`](https://github.com/khuedoan/slock)
 - [`picom-git`](https://aur.archlinux.org/packages/picom-git/)
@@ -43,6 +41,8 @@ Install the following packages:
 
 #### Linux
 
+If you just want the dotfiles:
+
 ```
 git clone https://github.com/khuedoan/linux-setup
 cd linux-setup
@@ -51,9 +51,11 @@ make init dotfiles
 
 #### macOS
 
+I also have some limited macOS support:
+
 ```
 git clone https://github.com/khuedoan/macos-setup
-cd linux-setup
+cd macos-setup
 make init dotfiles
 ```
 
@@ -84,15 +86,8 @@ git push
 git pull
 ```
 
-I used to manage my dotfiles using git bare with a `dotfiles` command but now I switched to normal `git` command.
-
 ### Wallpapers
 
 | Original | Blured|
 | :-- | :-- |
 | ![Original](https://i.imgur.com/ZlvUiIZ.jpg) | ![Blured](https://i.imgur.com/C3tCYsp.jpg) |
-
-## Acknowledgements
-
-- **StreakyCobra** for [manage dotfiles using git bare](https://news.ycombinator.com/item?id=11070797)
-- **thugcee** for [show sxhkd key bindings with fuzzy search script](https://www.reddit.com/r/bspwm/comments/aejyze/tip_show_sxhkd_keybindings_with_fuzzy_search/)
