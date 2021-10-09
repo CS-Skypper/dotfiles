@@ -10,4 +10,4 @@ fi
 systemctl is-active --quiet optimus-manager.service && prime-offload
 autorandr --change
 
-exec bspwm
+exec awesome
